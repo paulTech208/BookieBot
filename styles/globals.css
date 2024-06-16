@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Blinker Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/Blinker/Blinker-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Blinker Semibold";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/Blinker/Blinker-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "OpenSans-VariableFont_wdth,wght";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/OpenSans-VariableFont_wdth,wght") format("truetype");
+}
+@font-face {
+  font-family: "RedHatDisplay Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/RedHatDisplay/RedHatDisplay-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "RedHatDisplay Bold";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/RedHatDisplay/RedHatDisplay-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Inter Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/Inter/Inter-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Inter Medium";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/Inter/Inter-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Inter Bold";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/Inter/Inter-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Inter SemiBold";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/Inter/Inter-SemiBold.ttf") format("truetype");
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+html,
+body {
+  background-color: #090307;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
+    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: black;
+  border: 1px solid #1d1d1d;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 0px;
+  background-color: #2c2c2c;
+}

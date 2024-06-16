@@ -1,0 +1,58 @@
+[
+  {
+    "icon": "/images/trending.svg",
+    "title": "trending"
+  },
+  {
+    "icon": "/images/soccer.svg",
+    "title": "Football"
+  },
+  {
+    "icon": "/images/basketball.svg",
+    "title": "Baketball"
+  },
+  {
+    "icon": "/images/hockey.svg",
+    "title": "Ice Hockey"
+  },
+  {
+    "title": "MMA",
+    "icon": "/images/mma.svg"
+  },
+  {
+    "icon": "/images/tennis.svg ",
+    "title": "Tennis"
+  },
+  {
+    "title": "Baseball",
+    "icon": "/images/baseball.svg"
+  },
+  {
+    "icon": "/images/boxing.svg",
+    "title": "Boxing"
+  },
+  {
+    "title": "Csgo",
+    "icon": "/images/csgo.svg"
+  },
+  {
+    "icon": "/images/cricket.svg",
+    "title": "Crkcket"
+  },
+  {
+    "title": "Dota2",
+    "icon": "/images/dota.svg"
+  },
+  {
+    "title": "League",
+    "icon": "/images/league.svg"
+  },
+  {
+    "title": "Rugby Leay",
+    "icon": "/images/rugby.svg"
+  },
+  {
+    "title": "Rugby Unit",
+    "icon": "/images/rugby.svg "
+  }
+]
